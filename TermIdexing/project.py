@@ -100,7 +100,7 @@ def main():
         "could\n",  "may\n",  "I\n",  "said\n",  "so\n",  "people\n",  "part\n", "over\n", "im\n", "off\n",\
         "just\n", "dont\n", "know\n", "back\n", "looks\n", "here\n","through\n","ted\n","where\n","po\n"]
 
-    ponctuation = ['.',',','(',')',':','?','!',';','\'','-','*',"--",'_']
+    ponctuation = ['.',',','(',')',':','?','!',';','\'','-','*',"--"]
     sortFiles("1",stopWords, ponctuation)
     sortFiles("2",stopWords, ponctuation)
 
